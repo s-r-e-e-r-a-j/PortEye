@@ -8,15 +8,15 @@ PortEye is a lightweight and simple Bash script designed to scan a range of port
 - Timeout functionality to avoid hanging on unresponsive ports.
 - Informative banner with attribution and GitHub link.
   ## Installation
-  1. **Clone the Repository**
+1. **Clone the Repository**
 ```bash
 git clone https://github.com/s-r-e-e-r-a-j/PortEye.git
 ```
-  2. **Navigate to the PortEye directory**
+2. **Navigate to the PortEye directory**
  ```bash
  cd PortEye
  ```
-  3. **Navigate to the PortEye directory**
+3. **Navigate to the PortEye directory**
  ```bash
  cd PortEye
  ```
