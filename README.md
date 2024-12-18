@@ -37,12 +37,13 @@ bash porteye.sh 192.168.1.1 20 80
 - **Open Ports**: Displayed in green, indicating the port is open and responsive.
 - **Closed Ports**: Displayed in red, indicating the port is closed or filtered.
 ## Features in Detail
--**Display Banner**: Includes tool details and attribution.
+- **Display Banner**: Includes tool details and attribution.
 - **Port Scanning**: Iterates through a range of ports to determine their status.
 - **Timeout Mechanism**: Prevents the script from getting stuck on unresponsive ports using `timeout`.
 - **Results Array**: Stores the results of open ports for additional display.
 ## Author
 Developed by **Sreeraj**
+
 Copyright © 2024
 
 GitHub: https://github.com/s-r-e-e-r-aj
