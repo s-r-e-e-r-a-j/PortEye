@@ -26,7 +26,7 @@ trap handle_interrupt SIGINT
 
 
 display_banner() {
-
+clear
 echo -e "${GREEN}"
 cat << "EOF" 
   
