@@ -5,6 +5,7 @@ RED='\033[0;31m'    # Red
 NC='\033[0m'        # No Color (reset to default)
 YELLOW="\e[0;33m"
 
+# check if the user provide 3 arguments otherwise it will exit 
 if [[ $# -ne 3 ]]; then
 
 echo -e "${YELLOW}porteye.sh <targetip> <startingport> <endingport>${NC}"
@@ -12,6 +13,15 @@ exit 1
 
 fi
 
+# user press ctrl+c the script will stop
+
+function handle_interrupt() {
+    echo -e "${RED}\nKeyboard interrupt (Ctrl+C) detected. Exiting the script...${NC}"
+    exit 1
+}
+
+# Trap SIGINT (Ctrl+C)
+trap handle_interrupt SIGINT
 
 
 display_banner() {
