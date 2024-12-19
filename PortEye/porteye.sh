@@ -4,6 +4,7 @@ GREEN='\033[0;32m'  # Green
 RED='\033[0;31m'    # Red
 NC='\033[0m'        # No Color (reset to default)
 YELLOW="\e[0;33m"
+BLUE="\e[0;35m"
 
 # check if the user provide 3 arguments 
 
@@ -61,8 +62,7 @@ cat << "EOF"
 
 EOF
 echo -e "${NC}${YELLOW}* Copyright © Sreeraj, 2024${NC}"
-echo -e "${YELLOW}* GitHub: https://github.com/s-r-e-e-r-aj${NC}"
- echo -e "\n"
+echo -e "${YELLOW}* GitHub: https://github.com/s-r-e-e-r-aj${NC}\n"
 }
 
 scanner() {
@@ -73,6 +73,8 @@ count=1
 ipaddress=$1
 startingport=$2
 endingport=$3
+q
+echo -e "${BLUE}Scanning Port ${startingport} To ${endingport} At Host ${ipaddress} ${NC}\n"
 
 for((port=startingport;port<=endingport;port++))
 do
