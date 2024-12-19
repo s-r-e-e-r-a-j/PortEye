@@ -21,7 +21,7 @@ function handle_interrupt() {
  # print the discovered open ports before exiting
 if [[ ${#result_array[@]} -ne 0 ]]; then
 echo ""
-echo -e ${YELLOW} Discoverd Open Ports ${NC}\n"
+echo -e "${YELLOW} Discoverd Open Ports ${NC}\n"
 i=1
 while((i<$count))
 do
