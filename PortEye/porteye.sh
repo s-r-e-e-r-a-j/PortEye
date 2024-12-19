@@ -73,7 +73,7 @@ count=1
 ipaddress=$1
 startingport=$2
 endingport=$3
-q
+
 echo -e "${BLUE}Scanning Port ${startingport} To ${endingport} At Host ${ipaddress} ${NC}\n"
 
 for((port=startingport;port<=endingport;port++))
