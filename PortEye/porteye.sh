@@ -13,7 +13,7 @@ exit 1
 
 fi
 
-# user press ctrl+c the script will stop
+# user press Ctrl+C the script will stop
 
 function handle_interrupt() {
     echo -e "${RED}\nKeyboard interrupt (Ctrl+C) detected. Exiting the script...${NC}"
