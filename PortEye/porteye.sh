@@ -17,6 +17,24 @@ fi
 # user press Ctrl+C the script will stop
 
 function handle_interrupt() {
+
+ # print the discovered open ports before exiting
+if [[ ${#result_array[@]} -ne 0 ]]; then
+echo ""
+echo -e ${YELLOW} Discoverd Open Ports ${NC}\n"
+i=1
+while((i<$count))
+do
+
+echo -e "$GREEN${result_array[$i]}$NC"
+
+((i++))
+
+done
+
+fi
+
+    echo -e "\n"
     echo -e "${RED}\nKeyboard interrupt (Ctrl+C) detected. Exiting the script...${NC}"
     exit 1
 }
@@ -77,10 +95,12 @@ done
 
 echo ""
 
-i=1
-
+# print the discovered open ports
 if [[ ${#result_array[@]} -ne 0 ]]; then
 
+echo -e "${YELLOW}Discovered Open Ports{NC}\n"
+
+i=1
 while((i<$count))
 do
 
