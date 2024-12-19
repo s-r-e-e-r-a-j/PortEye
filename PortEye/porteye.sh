@@ -34,7 +34,7 @@ done
 
 fi
 
-    echo -e "\n"
+    echo ""
     echo -e "${RED}\nKeyboard interrupt (Ctrl+C) detected. Exiting the script...${NC}"
     exit 1
 }
