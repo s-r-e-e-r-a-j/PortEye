@@ -4,7 +4,7 @@ GREEN='\033[0;32m'  # Green
 RED='\033[0;31m'    # Red
 NC='\033[0m'        # No Color (reset to default)
 YELLOW="\e[0;33m"
-BLUE="\e[0;35m"
+BLUE="\e[0;34m"
 
 # check if the user provide 3 arguments 
 
@@ -76,7 +76,7 @@ endingport=$3
 
 echo -e "${BLUE}Scanning Port ${startingport} To ${endingport} At Host ${ipaddress} ${NC}\n"
 
-for((port=startingport;port<=endingport;port++))
+for(( port=startingport;port<=endingport;port++))
 do
 
 timeout 2  bash -c "echo > /dev/tcp/$ipaddress/$port" &> /dev/null
