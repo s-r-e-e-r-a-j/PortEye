@@ -81,12 +81,12 @@ timeout 2  bash -c "echo > /dev/tcp/$ipaddress/$port" &> /dev/null
 
 if [ $? -eq 0 ]; then
 
-echo -e  "$GREEN $port is open at host $ipaddress$NC"
-result_array[$count]="$port is open at host $ipaddress" 
+echo -e  "$GREEN port $port is open at host $ipaddress$NC"
+result_array[$count]="port $port is open at host $ipaddress" 
 ((count++))
 else
 
-echo -e "$RED $port is closed at host $ipaddress$NC"
+echo -e "$RED port $port is closed at host $ipaddress$NC"
 
 fi
 
