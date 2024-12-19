@@ -98,7 +98,7 @@ echo ""
 # print the discovered open ports
 if [[ ${#result_array[@]} -ne 0 ]]; then
 
-echo -e "${YELLOW}Discovered Open Ports{NC}\n"
+echo -e "${YELLOW}Discovered Open Ports ${NC}\n"
 
 i=1
 while((i<$count))
