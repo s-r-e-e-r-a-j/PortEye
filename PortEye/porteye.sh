@@ -5,7 +5,8 @@ RED='\033[0;31m'    # Red
 NC='\033[0m'        # No Color (reset to default)
 YELLOW="\e[0;33m"
 
-# check if the user provide 3 arguments otherwise it will exit 
+# check if the user provide 3 arguments 
+
 if [[ $# -ne 3 ]]; then
 
 echo -e "${YELLOW}porteye.sh <targetip> <startingport> <endingport>${NC}"
