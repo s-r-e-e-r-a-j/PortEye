@@ -1,5 +1,5 @@
 ## PortEye - A Simple Bash Port Scanner
-PortEye is a lightweight and simple Bash script designed to scan a range of ports on a target host and determine which ones are open. It’s an easy-to-use tool for network diagnostics and learning purposes, built entirely in Bash.
+PortEye is a lightweight and simple Bash Tool designed to scan a range of ports on a target host and determine which ones are open. It’s an easy-to-use tool for network diagnostics and learning purposes, built entirely in Bash.
 
 ## Features
 - Scans a specified range of ports on a given IP address.
