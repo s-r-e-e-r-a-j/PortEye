@@ -61,8 +61,7 @@ cat << "EOF"
                     Developer: Sreeraj
 
 EOF
-echo -e "${NC}${YELLOW}* Copyright © Sreeraj, 2024${NC}"
-echo -e "${YELLOW}* GitHub: https://github.com/s-r-e-e-r-aj${NC}\n"
+echo -e "${NC}${YELLOW}* GitHub: https://github.com/s-r-e-e-r-aj${NC}\n"
 }
 
 scanner() {
