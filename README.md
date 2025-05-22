@@ -21,7 +21,7 @@ git clone https://github.com/s-r-e-e-r-a-j/PortEye.git
  ```
 ## How to Use
 #### Prerequisites
-- A Linux-based system with Bash installed (e.g., Kali Linux, Ubuntu, Termux, etc.).
+- A Linux-based system with Bash installed (e.g., Kali Linux, Ubuntu, parrot os, Termux, etc.).
 #### Command Syntax
 ``` bash
 bash porteye.sh <target_ip> <starting_port> <ending_port>
