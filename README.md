@@ -43,9 +43,3 @@ bash porteye.sh 192.168.1.1 20 80
 Developed by **Sreeraj**
 
 GitHub: https://github.com/s-r-e-e-r-aj
-
-## Disclaimer
-This tool is intended for ethical purposes only. Ensure you have permission to scan any IP address or network. Unauthorized scanning of networks can be illegal and lead to penalties.
-
-Use responsibly and for educational purposes!
-
