@@ -39,7 +39,3 @@ bash porteye.sh 192.168.1.1 20 80
 - **Port Scanning**: Iterates through a range of ports to determine their status.
 - **Timeout Mechanism**: Prevents the script from getting stuck on unresponsive ports using `timeout`.
 - **Results Array**: Stores the results of open ports for additional display.
-## Author
-Developed by **Sreeraj**
-
-GitHub: https://github.com/s-r-e-e-r-aj
