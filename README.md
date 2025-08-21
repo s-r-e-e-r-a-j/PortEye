@@ -26,7 +26,7 @@ git clone https://github.com/s-r-e-e-r-a-j/PortEye.git
 ``` bash
 bash porteye.sh <target_ip> <starting_port> <ending_port>
 ```
-#### Example Usage
+#### Example
 To scan ports `20` to `80` on the IP address `192.168.1.1`:
 
 ```bash
