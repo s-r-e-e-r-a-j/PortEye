@@ -20,7 +20,7 @@ git clone https://github.com/s-r-e-e-r-a-j/PortEye.git
  cd PortEye
  ```
 ## How to Use
-#### Prerequisites
+#### Requirements
 - A Linux-based system with Bash installed (e.g., Kali Linux, Ubuntu, parrot os, Termux, etc.).
 #### Command Syntax
 ``` bash
