@@ -6,8 +6,8 @@ PortEye is a lightweight and simple Bash Tool designed to scan a range of ports 
 - Detects and displays open and closed ports.
 - Lightweight and portable, requiring no additional dependencies beyond Bash.
 - Timeout functionality to avoid hanging on unresponsive ports.
-- Stores the results of open ports for additional display.
-- Stores results to a timestamped log file
+- Displays discovered open ports at the end of the scan 
+- Saves open port results to a timestamped log file for later reference
   
   ## Installation
 1. **Clone the Repository**
